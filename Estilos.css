@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding-top: 140px;
+    font-family: 'Kanit', sans-serif;
+}
+
+/*----------------------------Botonera------------------------------*/
+
+header {
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 13px;
+    font-size: 15px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #f9f9f9;
+}
+
+nav img {
+    width: 140px;
+    height: 140px;
+}
+
+li {
+    width: 200px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 15px;
+    border-radius: 100%;
+}
+
+li:hover {
+    background-color: rgb(0, 151, 171);
+}
+
+h1 {
+    text-align: center;
+    padding: auto;
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Kanit', sans-serif;
+}
+
+.bienvenidos {
+    text-align: center;
+    padding-top: 160px;
+}
+.contenedorbienvenida{
+   text-align: center;
+   background-color: #e6e6e6;
+   padding: 20px;
+}
+.contenedorbienvenida p{
+    width:100%;
+    height: 110px;
+    line-height: 50px;
+    padding-top: 15px;
+}
+
+
+/*----------------------------section 1------------------------------*/
+
+.section1 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 105%;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+}
+
+.productos2 {
+    display: flex;
+    justify-content: center;
+}
+
+.productoscaja {
+    margin: 20px;
+}
+
+/*----------------------------section 2------------------------------*/
+
+.longevidad {
+    text-align: center;
+}
+
+.videoLongevidad {
+    text-align: center;
+}
+
+.longevidad2 {
+    text-align: center;
+    background-color: #e6e6e6;
+    height: 5%;
+    padding: 100px;
+}
+
+h3 {
+    padding: 40px;
+    font-size: 30PX;
+    font-family: 'Kanit', sans-serif;
+}
+
+.longevidad p {
+    text-align: center;
+    padding: 40px;
+}
+
+.microscanner {
+    text-align: center;
+}
+
+.videoMicroscanner {
+    text-align: center;
+}
+
+/*----------------------------section 2------------------------------*/
+
+.section2 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 85%;
+}
+
+.valoresyobjetivoscontenedor {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.circulo {
+    background-image: linear-gradient(109.6deg, rgba(61, 245, 167, 1) 11.2%, rgba(9, 111, 224, 1) 91.1%);
+    border-radius: 100%;
+}
+
+.beneficiospersonas {
+    width: 600px;
+    height: 600px;
+}
+
+.info {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+
+/*----------------------------section 3------------------------------*/
+
+.section3 {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 110%;
+}
+
+.testimoniocontenedor {
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.caja {
+    background-image: linear-gradient(109.6deg, rgba(61, 245, 167, 1) 11.2%, rgba(9, 111, 224, 1) 91.1%);
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    border-radius: 5%;
+    margin: 20px;
+}
+
+.persona {
+    width: 200px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.nombre {
+    width: 100%;
+    color: rgb(0, 0, 0);
+    height: auto;
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 2px 1px black;
+    padding: 25px;
+}
+
+.videocontenedor {
+    text-align: center;
+}
+
+.boton {
+    text-align: center;
+    padding: 20px;
+}
+
+button {
+    width: 200px;
+    height: 100px;
+    background-image: linear-gradient(109.6deg, rgba(61, 245, 167, 1) 11.2%, rgba(9, 111, 224, 1) 91.1%);
+    border: solid white;
+    border-radius: 20%;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+/*----------------------------section 4------------------------------*/
+
+.section4 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 31%;
+}
+
+footer {
+    display: flex;
+    color: white;
+}
+
+.contactoContenedor {
+    margin: auto;
+    text-align: center;
+    width: 250px;
+}
+
+.benchana {
+    border-radius: 100%;
+}
+
+.contactoContenedor p {
+    margin: 10px;
+}
+
+.contacto2 {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.copy {
+    color: #fff;
+    text-align: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    /* Estilos para el header y la navegación */
+
+    header nav {
+        height: 135px;
+    }
+
+    nav img {
+        width: 125px;
+        height: 125px;
+    }
+
+    /* H1 , H2 Y H3  */
+
+    h1 {
+        text-align: center;
+        height: auto;
+        font-size: 40px;
+        padding-top: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+        height: auto;
+    }
+
+    h3 {
+        font-size: 15px;
+        height: auto;
+    }
+    .bienvenidos iframe {
+        flex-direction: column;
+        width: 375px;
+        height: 211px;
+    }
+    .contenedorbienvenida p{
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* sección 1  */
+
+    .section1 {
+        height: auto;
+    }
+
+    .productos,
+    .productos2 {
+        flex-direction: column;
+    }
+
+    .productoscaja {
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .productosimg {
+        width: 375px;
+        height: 211;
+    }
+
+    /* Longevidad y Microscanner */
+
+    .longevidad {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .longevidad2 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .videoLongevidad iframe {
+        flex-direction: column;
+        width: 375px;
+        height: 211px;
+    }
+
+    .videoMicroscanner iframe {
+        flex-direction: column;
+        width: 375px;
+        height: 211px;
+    }
+
+    .microscanner {
+        text-align: center;
+    }
+
+    /* sección 2 */
+
+    .section2 {
+        height: auto;
+    }
+
+    .valoresyobjetivoscontenedor {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .valoresyobjetivoscontenedor .info {
+        width: 200px;
+        padding: 40px;
+        height: auto;
+    }
+
+    .valoresyobjetivoscontenedor .beneficiospersonas {
+        width: 275px;
+        height: 275px;
+        height: auto;
+    }
+
+    /* Sección 3 */
+    .section3 {
+        height: auto;
+    }
+
+    .testimoniocontenedor {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .caja {
+        width: 235px;
+        height: 550px;
+        margin-left: -20px;
+    }
+
+    .testimoniocontenedor .caja .persona {
+        width: 140px;
+    }
+    .testimoniocontenedor .nombre{
+        color: black;
+        font-size: 20px;
+    }
+    .testimoniocontenedor .texto{
+        font-size: 15px;
+    }
+
+    /* Sección 4 */
+
+    .section4 {
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .contactoContenedor {
+        padding: 10px;
+    }
+
+    footer .copy {
+        padding: 20px;
+    }
+
+    footer .contacto2 {
+        padding: 20px;
+
+    }
+
+    footer .contacto2 img {
+        width: 50px;
+    }
+}
