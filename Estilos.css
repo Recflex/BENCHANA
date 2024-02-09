@@ -100,7 +100,7 @@ h1 {
 .section1 {
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 105%;
+    height: 132%;
 }
 
 .productos {
@@ -115,6 +115,9 @@ h1 {
 
 .productoscaja {
     margin: 20px;
+}
+.productoscaja p{
+    width: 600px;
 }
 
 /*----------------------------LONGEVIDAD y MICROSCANNER------------------------------*/
@@ -131,7 +134,7 @@ h1 {
     text-align: center;
     background-color: #e6e6e6;
     height: 10%;
-    padding: 40px;
+    padding-top: 20px;
 }
 
 .longevidad2 p {
@@ -141,7 +144,7 @@ h1 {
 h3 {
     text-align: center;
     padding: 25px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .longevidad p {
@@ -216,14 +219,14 @@ h3 {
 .caja {
     background-image: linear-gradient(109.6deg, rgba(61, 245, 167, 1) 11.2%, rgba(9, 111, 224, 1) 91.1%);
     width: 400px;
-    height: 600px;
+    height: 400px;
     text-align: center;
     border-radius: 5%;
     margin: 20px;
 }
 
-.persona {
-    width: 200px;
+.caja img{
+    width: 100px;
     display: inline-block;
     border-radius: 100%;
     margin: 20px;
@@ -268,7 +271,7 @@ button {
 .section4 {
     background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 31%;
+    height: 25%;
 }
 
 footer {
@@ -287,19 +290,24 @@ footer {
 }
 
 .contactoContenedor p {
-    margin: 10px;
+    padding-top: 10px;
 }
 
 .contacto2 {
     color: white;
     margin: auto;
     text-align: center;
+    width: 200px;
+}
+.contacto2 img{
+    width: 50px;
 }
 
 .copy {
     color: #fff;
     text-align: center;
     margin: auto;
+    padding-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -361,10 +369,22 @@ footer {
         margin: auto;
         padding-top: 10px;
     }
+    .productoscaja p{
+        flex-direction: column;
+        width: 375px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .productoscaja h3{
+        flex-direction: column;
+        font-size: 15px;
+    }
 
     .productosimg {
-        width: 375px;
-        height: 211;
+        width: 390px;
+        height: 235;
+        padding-top: 15px;
+
     }
 
     /* Longevidad y Microscanner */
@@ -377,6 +397,10 @@ footer {
     .longevidad2 {
         flex-direction: column;
         height: auto;
+    }
+    .longevidad2 p{
+        font-size: 15px;
+        width: 375px;
     }
 
     .videoLongevidad iframe {
@@ -437,12 +461,12 @@ footer {
 
     .caja {
         width: 240px;
-        height: 450px;
+        height: 350px;
         margin-left: -20px;
     }
 
     .testimoniocontenedor .caja .persona {
-        width: 140px;
+        width: 75px;
     }
 
     .testimoniocontenedor .nombre {
